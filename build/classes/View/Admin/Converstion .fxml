@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="426.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Contoller.converstionController">
+   <children>
+      <AnchorPane prefHeight="108.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="20.0" layoutY="33.0" prefHeight="42.0" prefWidth="264.0" style="-fx-text-fill: #142152;" text="Currency Converstion  System">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="butLogout" layoutX="486.0" layoutY="39.0" mnemonicParsing="false" onAction="#butLogouthandel" prefHeight="31.0" prefWidth="87.0" style="-fx-background-color: #c9a84b; -fx-text-fill: #f2eee1;" text="Log out" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="2.0" layoutY="93.0" prefHeight="200.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" layoutX="154.0" layoutY="56.0" prefHeight="21.0" prefWidth="71.0" style="-fx-text-fill: #142152;" text="USD">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtusd" layoutX="122.0" layoutY="101.0" prefHeight="31.0" prefWidth="136.0" />
+            <TextField fx:id="txtnis" layoutX="324.0" layoutY="101.0" prefHeight="31.0" prefWidth="136.0" />
+            <Label layoutX="274.0" layoutY="102.0" style="-fx-text-fill: #142152;" text="TO">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="348.0" layoutY="56.0" prefHeight="21.0" prefWidth="71.0" style="-fx-text-fill: #142152;" text="NIS">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="butConvert" layoutX="236.0" layoutY="332.0" mnemonicParsing="false" onAction="#butConverthandel" prefHeight="50.0" prefWidth="106.0" style="-fx-background-color: #142152; -fx-text-fill: #f2f3f7;" text="Convert">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

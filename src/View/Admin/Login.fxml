@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="529.0" prefWidth="396.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Contoller.LoginController">
+   <children>
+      <AnchorPane prefHeight="489.0" prefWidth="453.0">
+         <children>
+            <ImageView fx:id="imageView" fitHeight="186.0" fitWidth="464.0" layoutX="-6.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="172.0" layoutY="203.0" prefHeight="21.0" prefWidth="76.0" text="user name" />
+            <TextField fx:id="txtUserName" layoutX="116.0" layoutY="224.0" onAction="#txtUserName" prefHeight="42.0" prefWidth="187.0" style="-fx-border-color: blue;" />
+            <Label layoutX="169.0" layoutY="290.0" prefHeight="21.0" prefWidth="89.0" text="password" />
+            <PasswordField fx:id="txtPassword" layoutX="116.0" layoutY="325.0" onAction="#txtPassword" prefHeight="42.0" prefWidth="187.0" style="-fx-border-color: blue;" />
+            <Button fx:id="butLogin" layoutX="172.0" layoutY="375.0" mnemonicParsing="false" onAction="#butLoginHandel" prefHeight="42.0" prefWidth="76.0" style="-fx-background-color: blue; -fx-text-fill: #faf8f2;" text="Login" />
+            <Label fx:id="labelError" layoutX="139.0" layoutY="429.0" prefHeight="42.0" prefWidth="106.0" style="-fx-text-fill: red;" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
